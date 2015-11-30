@@ -8,5 +8,6 @@
 </head>
 <body>
     <h1>${ message }</h1>
+    <p><a href="json">Click here to view a Sample JSON response.</a></p>
 </body>
 </html>
