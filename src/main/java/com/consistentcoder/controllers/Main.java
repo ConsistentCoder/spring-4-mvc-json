@@ -20,7 +20,7 @@ public class Main {
 		return "hello";
 	}
 	
-	@RequestMapping(value="/json", method=RequestMethod.GET, produces = "application/json")
+	@RequestMapping(value = "/json", method = RequestMethod.GET, produces = "application/json")
     @ResponseBody
     public Response jsonPage() {
 
